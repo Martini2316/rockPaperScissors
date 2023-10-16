@@ -1,0 +1,236 @@
+body{
+    background-color: rgb( 244, 214, 63);
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+#navi{
+    color: rgb(60, 59, 59);
+    font-size: 6vh;
+    width: 90vh;
+    height: 8vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6vh;
+    text-align: center;    
+    user-select: none; 
+}
+
+#wybor{
+    text-align: center;
+    border: 0.3vh #303030 solid;
+    width: 16vh;
+    height: 52.7vh;
+    margin-top: 13vh;
+    padding: 0.2vh;
+    margin-left: 15vh;
+    float: left;
+}
+
+#container{
+    padding: 0vh;
+    border: 0.5vh #303030 solid;
+    float: left;
+    height: 54vh;
+    width: 110vh;
+    margin-top: 12vh;
+    margin-left: 15vh;
+}
+
+.gracz{
+    text-align: center;
+    width: 54.8vh;
+    height: 54vh;
+    float: left;
+    border-right: 0.1vh solid #303030;
+}
+.AI{
+    text-align: center;
+    width: 55vh;
+    height: 54vh;
+    float: left;
+}
+
+.gracz > input{
+    margin-top: 1vh;
+    vertical-align: middle;
+    line-height: 3vh;
+    border: none;
+    color: #303030;
+    font-size: 30px;
+    text-align: center;
+    width: 40vh;
+    height: 3vh;
+    background-color: transparent;
+}
+
+.AI > input{
+    margin-top: 1vh;
+    vertical-align: middle;
+    line-height: 3vh;
+    border: none;
+    color: #303030;
+    font-size: 30px;
+    text-align: center;
+    width: 40vh;
+    height: 3vh;
+    background-color: transparent;
+}
+
+#polegracz{
+    width: 40vh;
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40vh;
+}
+
+#poleai{
+    width: 40vh;
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40vh;
+}
+
+
+button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+.wybierz-text{
+    border-top: 0.3vh #303030 solid;
+    border-right: 0.3vh #303030 solid;
+    border-left: 0.3vh #303030 solid;
+    vertical-align: middle;
+    line-height: 4vh;
+    width: 15.4vh;
+    height: 4vh;
+    text-align: center;
+    font-size: 3vh;
+    color: #303030;
+}
+
+.papier{
+    width: 16vh;
+    height: 16vh;
+    background-image: url(img/papier.png); background-repeat: no-repeat; background-size: cover;
+}
+.kamien{
+    width: 16vh;
+    height: 16vh;
+    background-image: url(img/kamien.png); background-repeat: no-repeat; background-size: cover;
+}
+.nozyce{
+    width: 16vh;
+    height: 16vh;
+    background-image: url(img/nozyce.png); background-repeat: no-repeat; background-size: cover;
+}
+
+#tablicawynikow{
+    border: 0.3vh #303030 solid;
+    padding: 0px;
+    width: 25vh;
+    margin-top: 12vh;
+    margin-left: 4vh;
+    height: 54vh;
+    float: left;
+    text-align: left;
+}
+
+h1{
+    font-size: 3vh;
+    color: #303030;
+    padding-bottom: 1vh;
+    border-bottom: 0.2vh #303030 solid;
+}
+#gracz{
+    background-color: transparent;
+    border:none;
+    width: 100%;
+    height: 3vh;
+    font-size: 4vh;
+    color: #303030;
+    text-align: center;
+}
+
+#wygrane{
+    width: 3vh;
+    height: 2.5vh;
+    font-size: 2.5vh;
+    color: #303030;
+    background-color: transparent;
+    margin-left: 1vh;
+    text-align: center;
+    border: none;
+}
+#przegrane{
+    width: 3vh;
+    height: 2.5vh;
+    font-size: 2.5vh;
+    color: #303030;
+    background-color: transparent;
+    margin-left: 1vh;
+    text-align: center;
+    border: none;
+}
+
+#graczAI{
+    margin-top: 1vh;
+    border-top: 0.3vh #303030 solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: transparent;
+    width: 100%;
+    height: 3vh;
+    padding-top: 2vh;
+    font-size: 4vh;
+    color: #303030;
+    text-align: center;
+}
+
+#wygraneAI{
+    width: 3vh;
+    height: 2.5vh;
+    font-size: 2.5vh;
+    color: #303030;
+    background-color: transparent;
+    margin-left: 1vh;
+    text-align: center;
+    border: none;
+}
+#przegraneAI{
+    width: 3vh;
+    height: 2.5vh;
+    font-size: 2.5vh;
+    color: #303030;
+    background-color: transparent;
+    margin-left: 1vh;
+    text-align: center;
+    border: none;
+}
+
+.wynik{
+    margin-top: 3vh;
+    margin-left: 76.5vh;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 4vh;
+    border: none;
+    background-color: transparent;
+    font-size: 3vh;
+    color: #303030;
+    width: 50vh;
+    height: 4vh;
+}

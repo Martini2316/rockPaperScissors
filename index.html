@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>RPSG!</title>
+</head>
+<body>
+    <div id="navi">Rock Paper Scissors Game!</div>
+    <div id="wybor">
+        <div class="wybierz-text">Wybierz:</div>
+        <button class="papier" id="papier" value="1" onclick="papier()"></button>
+        <button class="kamien" id="kamien" value="2" onclick="kamien()"></button>
+        <button class="nozyce" id="nozyce" value="3" onclick="nozyce()"></button>
+    </div>
+    <div id="container">
+        <div class="gracz">
+            <input disabled id="nick" value="" type="text">
+            <div id="polegracz"></div>
+        </div>
+
+        <div class="AI">
+            <input disabled value="AI" type="text">
+            <div id="poleai"></div>
+        </div>
+    </div>
+    <div id="tablicawynikow">
+        <h1>Tablica wyników</h1>
+        <input disabled type="text" value="" id="gracz"></br></br>
+        Wygrane: <input disabled type="text" id="wygrane" value=""></br></br>
+        Przegrane: <input disabled type="text" id="przegrane" value=""></br>
+        
+        <input disabled type="text" value="AI" id="graczAI"></br></br>
+        Wygrane: <input disabled type="text" id="wygraneAI" value=""></br></br>
+        Przegrane: <input disabled type="text" id="przegraneAI" value=""></br>
+    </div>
+    <div style="clear: both;"></div>
+    <input disabled type="text" class="wynik" id="ktowygral" value="">
+    
+</body>
+    <script src="main.js"></script>
+</html>
